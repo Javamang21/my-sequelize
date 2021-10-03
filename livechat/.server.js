@@ -31,7 +31,7 @@ app.get('/:room', (req, res) => {
   res.render('room', { roomName: req.params.room })
 })
 
-server.listen(3012, {
+server.listen(3011, {
   cors: {
     origin: "*",
   },
